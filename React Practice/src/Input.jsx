@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const Input = () => {
-  const [str, setStr] = useState();
-  const [num, setNum] = useState();
+  let [str, setStr] = useState();
+  let [num, setNum] = useState();
 
   const handleChange = (e) => {
     const input = e.target.value;
